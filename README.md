@@ -22,7 +22,9 @@ Official code for ACM MM'23 paper: "Weakly-supervised Video Scene Graph Generati
 
 
 # Evaluation
-``` python tools/eval_vidvrd.py --cfg_path experiments/config_.py --ckpt_path vidvrd_best.pth --gt_relations_path datasets/GT_json_for_eval/VidVRDtest_gts.json --save_tag vidvrd ```
+```
+python tools/eval_vidvrd.py --cfg_path experiments/config_.py --ckpt_path vidvrd_best.pth --gt_relations_path datasets/GT_json_for_eval/VidVRDtest_gts.json --save_tag vidvrd
+```
 
 
 # Citation
